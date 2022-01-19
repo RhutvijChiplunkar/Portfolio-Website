@@ -1,0 +1,112 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+/* body {
+    background-color: lightgrey;
+}
+ */
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navbar .nav-item a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 25px;
+}
+
+.navbar .nav-item a:hover {
+    text-decoration: underline 3px red;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url('./Assets/hamburger.png');
+}
+
+#intro {
+    margin-top: 100px;
+}
+
+.name {
+    color: red;
+    font-size: 4rem;
+}
+
+.summary {
+    font-size: 1.8rem;
+}
+#intro button{
+    text-align: center;
+    outline: none;
+    border: none;
+    height: auto;
+    border: 3px solid blue;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 50px;
+}
+
+#intro button:hover{
+    background-color: blue;
+    color: white;
+}
+#work-exp h1 {
+    text-align: center;
+}
+
+#skills h1 {
+    text-align: center;
+}
+
+#projects h1 {
+    text-align: center;
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+
+/*Footer CSS*/
+footer {
+    background-color: black;
+}
+
+footer a{
+    font-size: 2.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+footer a:active{
+    color: azure;
+}
+footer a:visited{
+    color: azure;
+}
+.social-icon{
+    color: azure;
+}
+
+.fa-linkedin:hover{
+    color:#0A66C2;
+}
+
+.fa-whatsapp:hover{
+    color:#25D366;
+}
+
+.fa-instagram:hover{
+    color:#E4405F;
+}
+
+.fa-github:hover{
+    color:lightblue;
+}
