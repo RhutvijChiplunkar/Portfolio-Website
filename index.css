@@ -1,9 +1,9 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-/* body {
-    background-color: lightgrey;
+body {
+    background-color: #aaabb8;
 }
- */
+
 .navbar {
     background-color: black;
     color: white;
@@ -25,7 +25,7 @@
     text-decoration: underline 3px red;
 }
 
-.navbar-toggler .navbar-toggler-icon{
+.navbar-toggler .navbar-toggler-icon {
     background-image: url('./Assets/hamburger.png');
 }
 
@@ -33,30 +33,48 @@
     margin-top: 100px;
 }
 
-.name {
+/* .name {
     color: red;
     font-size: 4rem;
 }
 
 .summary {
     font-size: 1.8rem;
+} */
+/* #intro a{
+    color: red;
+} */
+#intro a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px solid rgb(220, 190, 20);
+    font-size: 2rem;
+    margin-top: 30px;
+    transition: 1s ease;
+    color: black;
+    transition-property: background-color, color;
 }
-#intro button{
+
+#intro a:hover {
+    color: red;
+}
+
+/* #intro button{
     text-align: center;
     outline: none;
     border: none;
     height: auto;
     border: 3px solid blue;
-    color: black;
     font-size: 1.2rem;
     font-weight: bold;
     padding: 15px 50px;
 }
 
 #intro button:hover{
-    background-color: blue;
-    color: white;
-}
+    background-color: lightgreen;
+} */
 #work-exp h1 {
     text-align: center;
 }
@@ -73,40 +91,53 @@
     text-align: center;
 }
 
+#projects button {
+    outline: none;
+    border: 2px solid blue;
+    padding: auto;
+    background-color: lightyellow;
+    text-decoration: underline none;
+}
+
+#projects button:hover {
+    background-color: lightpink;
+}
 
 /*Footer CSS*/
 footer {
     background-color: black;
 }
 
-footer a{
+footer a {
     font-size: 2.2rem;
     padding-left: 1%;
     padding-right: 1%;
 }
 
-footer a:active{
-    color: azure;
-}
-footer a:visited{
-    color: azure;
-}
-.social-icon{
+footer a:active {
     color: azure;
 }
 
-.fa-linkedin:hover{
-    color:#0A66C2;
+footer a:visited {
+    color: azure;
 }
 
-.fa-whatsapp:hover{
-    color:#25D366;
+.social-icon {
+    color: azure;
 }
 
-.fa-instagram:hover{
-    color:#E4405F;
+.fa-linkedin:hover {
+    color: #0A66C2;
 }
 
-.fa-github:hover{
-    color:lightblue;
+.fa-whatsapp:hover {
+    color: #25D366;
+}
+
+.fa-instagram:hover {
+    color: #E4405F;
+}
+
+.fa-github:hover {
+    color: lightblue;
 }
