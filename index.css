@@ -1,17 +1,46 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 body {
-    background-color: #aaabb8;
+    background-color: #f2f1ef;
+    background-image: url("./Assets/bg.jfif");
 }
 
+/*Changing color of scroll-bar*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px orange;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: navy;
+}
+
+/*Navbar CSS*/
 .navbar {
     background-color: black;
     color: white;
 }
 
 .navbar-brand {
+    color: #63CDF5;
     font-weight: bold;
     font-size: 2rem;
+}
+
+.navbar-brand:hover {
+    color: rgb(255, 255, 255);
 }
 
 .navbar .nav-item a {
@@ -29,68 +58,57 @@ body {
     background-image: url('./Assets/hamburger.png');
 }
 
+/*Photo and introduction CSS*/
 #intro {
     margin-top: 100px;
 }
 
-/* .name {
-    color: red;
-    font-size: 4rem;
-}
-
-.summary {
-    font-size: 1.8rem;
-} */
-/* #intro a{
-    color: red;
-} */
 #intro a {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 5px 20px;
     background-color: transparent;
     text-decoration: none;
-    border: 2px solid rgb(220, 190, 20);
-    font-size: 2rem;
-    margin-top: 30px;
-    transition: 1s ease;
-    color: black;
-    transition-property: background-color, color;
+    background-color: blue;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+    color: whitesmoke;
+    /* transition-property: background-color, color; */
 }
 
 #intro a:hover {
-    color: red;
+    background-color: green;
 }
 
-/* #intro button{
-    text-align: center;
-    outline: none;
-    border: none;
-    height: auto;
-    border: 3px solid blue;
-    font-size: 1.2rem;
+.name {
     font-weight: bold;
-    padding: 15px 50px;
+    text-align: center;
+    font-size: 3rem;
+    color: #490B3D;
 }
 
-#intro button:hover{
-    background-color: lightgreen;
-} */
-#work-exp h1 {
+.summary {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+/*Title of all sections*/
+.sec-title {
+    color: #00458B;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#work-exp .exp {
+    background-color: lightskyblue;
+}
+
+.exp h2 {
+    color: red;
     text-align: center;
 }
 
-#skills h1 {
-    text-align: center;
-}
-
-#projects h1 {
-    text-align: center;
-}
-
-#contact h1 {
-    text-align: center;
-}
-
+/*Projects CSS*/
 #projects button {
     outline: none;
     border: 2px solid blue;
