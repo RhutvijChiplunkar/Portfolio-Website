@@ -108,6 +108,10 @@ body {
     text-align: center;
 }
 
+/*Skills CSS*/
+#skills img{
+    float: left;
+}
 /*Projects CSS*/
 #projects button {
     outline: none;
@@ -142,10 +146,15 @@ footer a:visited {
 
 .social-icon {
     color: azure;
+    
 }
+/* .fa-linkedin{
+    transition: transform .4s ease-in-out;
+} */
 
 .fa-linkedin:hover {
     color: #0A66C2;
+    /* transform: rotate(360deg); */
 }
 
 .fa-whatsapp:hover {
