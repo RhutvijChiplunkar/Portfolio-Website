@@ -88,30 +88,36 @@ hr {
     font-weight: bold;
     text-align: center;
     font-size: 3rem;
+    letter-spacing: -1px;
     color: #490B3D;
 }
 
 .summary {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
 }
 
 /*Title of all sections*/
 .sec-title {
-    color: #00458B;
+    color: #490B3D;
     text-align: center;
     font-weight: bolder;
 }
 
-/* #work-exp .exp {
-    background-color: lightskyblue;
-}
- */
+/*Work Experience CSS*/
 .exp h2 {
-    color: red;
+    color: orange;
+    font-weight: bold;
     text-align: center;
 }
-
+.exp h4 {
+    font-weight: bold;
+    text-align: center;
+}
+.exp li{
+    font-size: 1.2rem;
+}
 /*Skills CSS*
 #skills h5{
     text-align: center;
