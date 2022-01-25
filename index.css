@@ -5,6 +5,10 @@ body {
     background-image: url("./Assets/bg.jfif");
 }
 
+hr {
+    color: navy;
+}
+
 /*Changing color of scroll-bar*/
 ::-webkit-scrollbar {
     width: 5px;
@@ -108,22 +112,49 @@ body {
     text-align: center;
 }
 
-/*Skills CSS*/
-#skills img{
-    float: left;
-}
+/*Skills CSS*
+#skills h5{
+    text-align: center;
+}*/
+
 /*Projects CSS*/
+#projects .card-title {
+    color: orange;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+#projects a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 #projects button {
     outline: none;
-    border: 2px solid blue;
+    border: none;
     padding: auto;
-    background-color: lightyellow;
+    background-color: blue;
     text-decoration: underline none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 5px 0;
+    width: 40%;
 }
 
 #projects button:hover {
-    background-color: lightpink;
+    background-color: green;
 }
+
+/*Contact CSS*/
+#contact .card-body{
+    border-radius: 25px 0;
+}
+
+#contact .card-body h2{
+    color: orange;
+    font-weight: bold;
+}
+
 
 /*Footer CSS*/
 footer {
@@ -146,8 +177,9 @@ footer a:visited {
 
 .social-icon {
     color: azure;
-    
+
 }
+
 /* .fa-linkedin{
     transition: transform .4s ease-in-out;
 } */
